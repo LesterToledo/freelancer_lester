@@ -85,7 +85,16 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         height: 410px;
-        padding: 20px;
+        /* padding: 20px; */
+        position: relative;
+      }
+
+      .contenido-hero{
+        position: absolute;
+        background-color: rgba(0, 0, 0, .7 ); /** Sintaxis Anterior **/
+        background-color: rgb(0 0 0 / 70%); /** Sintaxis Nueva **/
+        height: 100%;
+        width: 100%;
       }
       
 
