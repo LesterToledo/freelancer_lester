@@ -6,12 +6,12 @@
   --gris: #757575;
 
 }
-
+/* Globales */
 html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
-
+ /* Box para los box model */
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -37,7 +37,7 @@ h1,h2,h3{
   text-align: center;
 }     
      
-
+/* Titulos */
       .titulo span{
         font-size: 2rem;
       }
@@ -108,7 +108,7 @@ h1,h2,h3{
         background-color: var(--primario);
         color: var(--oscuro);
       }
-
+        /* Contenido Hero */
       .hero{
         background-image: url(../img/hero.jpg);
         background-repeat: no-repeat;
