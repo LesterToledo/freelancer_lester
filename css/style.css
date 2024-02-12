@@ -35,12 +35,7 @@ h3{
 
 h1,h2,h3{
   text-align: center;
-}
-      
-      
-           
-        
-        
+}     
      
 
       .titulo span{
@@ -55,6 +50,26 @@ h1,h2,h3{
         margin-left: auto; */
         /* margin: 0 auto 0 auto; */
         margin: 0 auto;
+      }
+
+      .boton{
+        background-color: var(--secundario);
+        color: var(--blanco);
+        padding: 1rem 3rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: .5;
+        width: 90%;
+        text-align: center;
+      }
+
+      @media (min-width: 768px) {
+          .boton{
+            width: auto;
+          }
       }
 
       .nav-bg{
