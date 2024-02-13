@@ -151,6 +151,25 @@ h1,h2,h3{
         display: flex;
         align-items: flex-end;
       }
+
+      /* Servicios */
+
+      @media (min-width: 768px) {
+
+        .servicios{
+          display: grid;
+          /* grid-template-columns: 33.3% 33.3% 33.3%; */ /* Esta sintaxis es igual a las dos de abajo */
+          /* grid-template-columns: 1fr 1fr 1fr; */ /* Esta sintaxis es igual a la de arriba y a la de abajo */
+          grid-template-columns: repeat(3,1fr); /* Esta sintaxis es igual a las dos de arriba */
+          /* grid-template-rows: 200px 800px; */
+          
+  
+          /* grid: 200px 800px / 300 px 300px;  Esta linea sustituye las dos de arriba */
+        }
+          
+      }
+
+      
       
 
     
