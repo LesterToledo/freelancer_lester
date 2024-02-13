@@ -44,6 +44,11 @@ h1,h2,h3{
         font-size: 2rem;
       }
 
+/* Utilidades */
+.w-100{
+  width: 100%;
+}
+
       .contenedor{
         max-width: 120rem;
         /* margin-top: 0;
@@ -66,12 +71,18 @@ h1,h2,h3{
         border-radius: .5;
         width: 90%;
         text-align: center;
-      }
+        border: none;
+      }     
+      
 
       @media (min-width: 768px) {
           .boton{
             width: auto;
           }
+      }
+
+      .boton:hover{
+        cursor: pointer;
       }
 
       .sombra{
@@ -225,7 +236,49 @@ h1,h2,h3{
         color: var(--primario);
       }
 
-      
+      .contenedor-campos{
+
+      }
+
+      .campo{
+        margin-bottom: 1rem;
+      }
+
+      .campo label{
+        color: var(--blanco);
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        display: block;
+      }
+
+      .input-text{
+        width: 100%;
+        border: none;
+        padding: 1.5rem;
+        border-radius: 0.5rem;
+      }
+
+      /* .enviar .boton {
+        width: 100%;
+      } */
+
+      .w-sm-100{
+        width: 100%;
+      }
+
+      @media (min-width: 780px) {
+          .w-sm-100{
+            width: auto;
+          }
+      }
+
+      .flex{
+       display: flex;
+      }
+
+      .alinear-derecha{
+         justify-content: flex-end;
+      }
       
 
     
